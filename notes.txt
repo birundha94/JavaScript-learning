@@ -1,0 +1,6 @@
+variable:
+cannot be a reserved keyword
+should be meaningfull
+cannot start with a number(like 1name)
+cannot contain a space or hypheb
+are case-sensitive

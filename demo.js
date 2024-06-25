@@ -21,22 +21,36 @@ function add(num1,num2){
     return ans;
 }
 let add1=add(a,b);
-let add2=add(5,6);
-console.log(add1);
-console.log(add2);
+// let add2=add(5,6);
+// console.log(add1);
+// console.log(add2);
 
-var n=3;
-function square(num3){
-    var ans1=num3*num3;
-    return ans1;
-}
-let square1=square(n);
-console.log(square1);
+// var n=3;
+// function square(num3){
+//     var ans1=num3*num3;
+//     return ans1;
+// }
+// let square1=square(n);
+// console.log(square1);
 
-let msg='helloo';
-var msgval='helllo world';
-function hoisting(){
-    console.log(msgval,' this is hoisting and functions')
+// let msg='helloo';
+// var msgval='helllo world';
+// function hoisting(){
+//     console.log(msgval,' this is hoisting and functions')
+// }
+// console.log(msgval);
+// hoisting();
+
+// let myname=alert("not allowed");
+// console.log(myname);
+// let entname=confirm("allowed name only");
+// console.log(entname);
+let entname=prompt("Enter the name");
+if(entname){
+ console.log(entname ?? "your name not entered");
 }
-console.log(msgval);
-hoisting();
+else{
+    console.log("your name not entered");
+   
+}
+console.log(entname.trim().length);
