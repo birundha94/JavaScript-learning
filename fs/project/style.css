@@ -1,0 +1,27 @@
+body, ul {
+     margin: 0; padding: 0; 
+    }
+ /* Style the navbar */.navbar {
+    padding: 1em;
+    
+     }  /* Make the nav-list a flex container */
+.nav-list { 
+    display: flex;
+     justify-content:space-between; 
+     list-style-type: none; /* Removes the default bullets */
+ }
+ header{
+    background-color: aqua;
+    height: 10vh;
+ }
+ .menu{
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s,ease-in;
+ }
+ .menu >*{
+    border: 2px solid black;
+    height: 20px;
+    width: 8%;
+
+ }

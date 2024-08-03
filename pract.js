@@ -60,17 +60,36 @@
 //     console.log("false");
 // }
 
-var a;
-var b= typeof a;
-console.log(b);
-console.log(typeof null)
-var c;
-var d=typeof c;
-if(b===d){
-    console.log(true);
+// var a;
+// var b= typeof a;
+// console.log(b);
+// console.log(typeof null)
+// var c;
+// var d=typeof c;
+// if(b===d){
+//     console.log(true);
 
-}else
-{
-    console.log(false);
+// }else
+// {
+//     console.log(false);
 
-}
+// }
+
+
+
+// let arr=[1,2,3,4];
+// let arr2=['1',2,3,4];
+// let type=typeof arr[0];
+// console.log(type);
+// let type2=typeof arr2[0];
+// console.log(type2);
+// if(arr[0]===arr2[0]){
+//     console.log(true);
+// }else{
+//     console.log(false);
+// }
+
+
+
+
+
